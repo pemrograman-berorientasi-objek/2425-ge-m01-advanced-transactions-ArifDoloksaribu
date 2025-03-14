@@ -12,12 +12,10 @@ Pada tugas sebelumnya (**T03**) anda telah diminta untuk mengembangkan fitur unt
 Perhatikan contoh berikut.
 
 ```bash
-create-account#Wiro Sableng#wirsab
-create-account#Jaka Sembung#jaksem
-create-transaction#jaksem#15.0#2023/02/14 14:14:14#Weekly income
-create-transaction#jaksem#-8.4#2023/02/15 15:18:15#SIM credit
-create-transaction#jaksem#37.1#2023/02/15 15:15:15#Book refund
-create-transaction#wirsab#-5.0#2023/02/16 10:15:41#Tax
+
+        for( Transaction t : trans){
+            System.out.println(t.toString());
+        }
 show-account#jaksem
 show-account#wirsab
 ---
